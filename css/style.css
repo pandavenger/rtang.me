@@ -1,0 +1,208 @@
+/** Standard normalizaiton stuff*/
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+	background: #f0f0ee;
+	color: #707777;
+	height: 100%;
+}
+
+body{
+	margin: 0;
+}
+
+/** Make the headers a different font for variety*/
+h1, h2, h3, h4, h5, h6, i{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 2.5rem;
+	color: #101111;
+}
+
+/** Splash Page*/
+.cover-container{
+	width: 100%;
+	height: 100%;
+	background: url('../img/background1.jpg') #101111;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.cover{
+	display: table;
+	width: 100%;
+	min-height: 100%;
+	background: rgba(16,17,17,0.5);
+}
+
+.cover h1, .cover h2, .cover h3,
+.cover h4, .cover h5, .cover h6, .cover i
+{
+	color: #f0f0ee;
+}
+
+.cover-body{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#splash-header{
+	font-size: 5rem;
+}
+
+#intro{
+	text-align: center;
+	padding: 2rem;
+}
+
+@keyframes delta-anim {
+    0% {
+		top: 0px;
+	}
+    50% {
+		top: 8px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+.delta {
+	position: relative;
+	animation-name: delta-anim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#about-me{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	
+	background: white;
+}
+
+#about-me img{
+	width: 15rem;
+	height: 15rem;
+	border-radius: 50%;
+	margin-bottom: 2.5rem;
+}
+
+#about-me p{
+	text-align: left;
+}
+
+#skills{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+}
+
+#skills .skill-column{
+	margin-top: 2.5rem;
+}
+
+#skills li{
+	text-align: left;
+}
+
+#work{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	
+	background: white;
+}
+
+.work-column .img-container{
+	height: 11rem;
+	white-space: nowrap;
+}
+
+.work-column .img-container .img-helper{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.work-column img{
+	width: 80%;
+	vertical-align: middle;
+}
+
+.work-column p{
+	font-size: 16px;
+	padding: 1rem;
+}
+
+#proj-hobby{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	
+	background: #F0F4C3;
+	color: #101111;
+}
+
+#proj-hobby ul{
+	text-align: left;
+}
+
+#proj-hobby a{
+	color: #EF6C00;
+}
+
+#resume{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	
+	background: #263238;
+	color: #f0ffff;
+}
+
+#resume a{
+	color: #f0ffff;
+	text-decoration: none;
+}
+
+#resume a.resume-button{
+	background: #03A9F4;
+	color: #f0ffff;
+	padding: 1rem;
+	border-radius: 0.25rem;
+	text-decoration: none;
+}
+
+#resume a i, #resume h2{
+	color: #f0ffff;
+}
+
+#footer{
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	text-align: center;
+	
+	background: #263238;
+	color: #f0ffff;
+}
+
+#footer h5{
+	color: #f0ffff;
+	padding: 0;
+	margin: 0;
+}
+
+i.blue{
+	color: #0D47A1;
+}
+
+i.green{
+	color: #33691E;
+}
+
+i.yellow{
+	color: #FBC02D;
+}
