@@ -1,139 +1,323 @@
 <!doctype html>
-<html lang="en">
- <head>
-  <meta charset="utf-8">
-  <title>rTang.me</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="icon" href="images/logo.png">
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- </head>
- <body>
-     <header>
-         <img class="logo" alt="rT" src="images/logo.png" />
-         <div class="menu">
-         </div>
-     </header>
+<title>rTang.me</title>
 
-     <section id="hero">
-        <div class="body">
-            <h2>hi</h2>
-            <p>
-                My name is Ruochen Tang, welcome to my site!
-            </p>
-        </div>
-     </section>
-     
-     <section id="about">
-        <div class="head">
-             <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(162, 255, 241, 1)" offset="10%"></stop><stop stop-color="rgba(187, 255, 245, 1)" offset="70%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,98L120,155.2C240,212,480,327,720,326.7C960,327,1200,212,1440,147C1680,82,1920,65,2160,65.3C2400,65,2640,82,2880,89.8C3120,98,3360,98,3600,122.5C3840,147,4080,196,4320,245C4560,294,4800,343,5040,334.8C5280,327,5520,261,5760,212.3C6000,163,6240,131,6480,130.7C6720,131,6960,163,7200,179.7C7440,196,7680,196,7920,179.7C8160,163,8400,131,8640,163.3C8880,196,9120,294,9360,318.5C9600,343,9840,294,10080,236.8C10320,180,10560,114,10800,147C11040,180,11280,310,11520,367.5C11760,425,12000,408,12240,383.8C12480,359,12720,327,12960,294C13200,261,13440,229,13680,196C13920,163,14160,131,14400,130.7C14640,131,14880,163,15120,220.5C15360,278,15600,359,15840,326.7C16080,294,16320,147,16560,73.5C16800,0,17040,0,17160,0L17280,0L17280,490L17160,490C17040,490,16800,490,16560,490C16320,490,16080,490,15840,490C15600,490,15360,490,15120,490C14880,490,14640,490,14400,490C14160,490,13920,490,13680,490C13440,490,13200,490,12960,490C12720,490,12480,490,12240,490C12000,490,11760,490,11520,490C11280,490,11040,490,10800,490C10560,490,10320,490,10080,490C9840,490,9600,490,9360,490C9120,490,8880,490,8640,490C8400,490,8160,490,7920,490C7680,490,7440,490,7200,490C6960,490,6720,490,6480,490C6240,490,6000,490,5760,490C5520,490,5280,490,5040,490C4800,490,4560,490,4320,490C4080,490,3840,490,3600,490C3360,490,3120,490,2880,490C2640,490,2400,490,2160,490C1920,490,1680,490,1440,490C1200,490,960,490,720,490C480,490,240,490,120,490L0,490Z"></path></svg>
-        </div>
-        <div class="body">
-            <h2>a little about myself</h2>
-            <p>
-                My hobbies include digital art, biking, and chess. I love a good puzzle and/or brainteaser, recently I've been working on clearing Baba is You without any hints.
-                I am an avid fan of anime and animation in general. My favourite film, however, is 12 Angry Men.
-            </p>
-            <p>
-                Like many others, my foray into the world of programming came from building my first website. 
-                Since then, I've amassed a variety of skills and passions in both front-end and backend. 
-                An artist at heart and a programmer by trade, I hope to bring my unique balance of creativity, structure and passion to every project I work on.
-            </p>
-        </div>
-     </section>
+<link rel="stylesheet" href="css/main.css">
+<link rel="icon" href="images/logo.png">
 
-     <section id="skills">
-        <div class="head">
-            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1"><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(27, 255, 232, 1)" offset="0%"/><stop stop-color="rgba(27, 255, 232, 1)" offset="100%"/></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-1)" d="M0,98L120,147C240,196,480,294,720,326.7C960,359,1200,327,1440,269.5C1680,212,1920,131,2160,147C2400,163,2640,278,2880,310.3C3120,343,3360,294,3600,277.7C3840,261,4080,278,4320,302.2C4560,327,4800,359,5040,326.7C5280,294,5520,196,5760,163.3C6000,131,6240,163,6480,196C6720,229,6960,261,7200,228.7C7440,196,7680,98,7920,98C8160,98,8400,196,8640,204.2C8880,212,9120,131,9360,130.7C9600,131,9840,212,10080,261.3C10320,310,10560,327,10800,294C11040,261,11280,180,11520,138.8C11760,98,12000,98,12240,81.7C12480,65,12720,33,12960,81.7C13200,131,13440,261,13680,334.8C13920,408,14160,425,14400,367.5C14640,310,14880,180,15120,155.2C15360,131,15600,212,15840,204.2C16080,196,16320,98,16560,89.8C16800,82,17040,163,17160,204.2L17280,245L17280,490L17160,490C17040,490,16800,490,16560,490C16320,490,16080,490,15840,490C15600,490,15360,490,15120,490C14880,490,14640,490,14400,490C14160,490,13920,490,13680,490C13440,490,13200,490,12960,490C12720,490,12480,490,12240,490C12000,490,11760,490,11520,490C11280,490,11040,490,10800,490C10560,490,10320,490,10080,490C9840,490,9600,490,9360,490C9120,490,8880,490,8640,490C8400,490,8160,490,7920,490C7680,490,7440,490,7200,490C6960,490,6720,490,6480,490C6240,490,6000,490,5760,490C5520,490,5280,490,5040,490C4800,490,4560,490,4320,490C4080,490,3840,490,3600,490C3360,490,3120,490,2880,490C2640,490,2400,490,2160,490C1920,490,1680,490,1440,490C1200,490,960,490,720,490C480,490,240,490,120,490L0,490Z"/></svg>
-        </div>
-        <div class="body">
-            <h2>my skillset</h2>
-            <ul>
-                <li>
-                    Frontend
-                    <ul>
-                        <li>HTML / CSS</li>
-                        <li>SASS</li>
-                        <li>Javascript / ES6</li>
-                        <li>Vue.JS</li>
-                        <li>Wordpress</li>
-                    </ul>
-                </li>
-                <li>
-                    Backend
-                    <ul>
-                        <li>PHP</li>
-                        <li>Python</li>
-                        <li>MySQL</li>
-                        <li>npm/yarn</li>
-                        <li>C#</li>
-                        <li>Java</li>
-                        <li>Firebase</li>
-                    </ul>
-                </li>
-                <li>
-                    Misc
-                    <ul>
-                        <li>Source Control/Git</li>
-                        <li>Tensorflow / Pytorch / Transformers</li>
-                        <li>Digital Art</li>
-                        <li>Photoshop</li>
-                        <li>Game Maker Studio</li>
-                        <li>Spoken Chinese</li>
-                    </ul>
-                </li>
-            </ul>
-            <p>
-                And I'm always willing to learn more!
-            </p>
-        </div>
-     </section>
+<meta name="description" content="The Personal Portfolio of Ruochen Tang">
+<meta property="og:title" content="rTang.me">
+<meta property="og:description" content="The Personal Portfolio of Ruochen Tang">
+<meta property="og:type" content="website">
 
-     <section id="projects">
-        <div class="head">
-            <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(50, 94, 174, 1)" offset="0%"></stop><stop stop-color="rgba(60, 104, 184, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-2)" d="M0,245L120,220.5C240,196,480,147,720,114.3C960,82,1200,65,1440,106.2C1680,147,1920,245,2160,236.8C2400,229,2640,114,2880,98C3120,82,3360,163,3600,220.5C3840,278,4080,310,4320,318.5C4560,327,4800,310,5040,294C5280,278,5520,261,5760,269.5C6000,278,6240,310,6480,326.7C6720,343,6960,343,7200,359.3C7440,376,7680,408,7920,351.2C8160,294,8400,147,8640,138.8C8880,131,9120,261,9360,334.8C9600,408,9840,425,10080,400.2C10320,376,10560,310,10800,277.7C11040,245,11280,245,11520,212.3C11760,180,12000,114,12240,122.5C12480,131,12720,212,12960,236.8C13200,261,13440,229,13680,220.5C13920,212,14160,229,14400,204.2C14640,180,14880,114,15120,147C15360,180,15600,310,15840,326.7C16080,343,16320,245,16560,196C16800,147,17040,147,17160,147L17280,147L17280,490L17160,490C17040,490,16800,490,16560,490C16320,490,16080,490,15840,490C15600,490,15360,490,15120,490C14880,490,14640,490,14400,490C14160,490,13920,490,13680,490C13440,490,13200,490,12960,490C12720,490,12480,490,12240,490C12000,490,11760,490,11520,490C11280,490,11040,490,10800,490C10560,490,10320,490,10080,490C9840,490,9600,490,9360,490C9120,490,8880,490,8640,490C8400,490,8160,490,7920,490C7680,490,7440,490,7200,490C6960,490,6720,490,6480,490C6240,490,6000,490,5760,490C5520,490,5280,490,5040,490C4800,490,4560,490,4320,490C4080,490,3840,490,3600,490C3360,490,3120,490,2880,490C2640,490,2400,490,2160,490C1920,490,1680,490,1440,490C1200,490,960,490,720,490C480,490,240,490,120,490L0,490Z"></path></svg>
-        </div>
-        <div class="body">
-            <h2>
-                some things i've made
-            </h2>
-            <div class="bubble-collection">
-                <div class="project-bubble">
-                    <h3><a href="https://animeawards.moe/">r/anime awards</a></h3>
-                    <small>Since 2017</small>
+<link rel="icon" href="/images/logo.png">
+<meta name="theme-color" content="#A2FFF1">
+</head>
+<body>
+    <canvas id="backgroundCanvas"></canvas>
+    <div class="main">
+        <div class="container">
+            <header>
+                <img class="logo" alt="rT" src="images/logo.png" />
+                <div class="menu">
                 </div>
-                <div class="project-bubble">
-                    <h3><a href="https://github.com/pandavenger/bio2">bio2</a></h3>
-                    <small>AI Experiments</small>
+            </header>
+            <div class="inner-container">
+                <div class="left">
+                    <div class="hi">
+                        hi.
+                    </div>
+                    <div class="desc">
+                        My name is Ruochen Tang. I am a developer based in Cincinnati, OH. I've built and supported a variety of plugins
+                        and applications for clients ranging from local to international.
+                        <br/>
+                        <br/>
+                        Web applications are my forte, but I have plenty of experience working with backend scripting and databases. I am
+                        always willing and excited to learn and improve.
+                        <br/>
+                    </div>
+                    <div class="center">
+                        <a class="button" href="resumeRuochenTang.pdf" target="_blank">download my resume</a>
+                    </div>
                 </div>
-                <div class="project-bubble">
-                    <h3><a href="https://supplychain.averydennison.com/">Avery Dennison Supply Chain</a></h3>
-                    <small>2FA and Okta Integration</small>
-                </div>
-                <div class="project-bubble">
-                    <h3><a href="http://configurator.fortissecurity.com/login">Fortis Safe Configurator</a></h3>
-                    <small>Drag and Drop Safe Builder</small>
-                </div>
-                <div class="project-bubble">
-                    <h3><a href="https://github.com/pandavenger/DimSumJS">DimSumJS</a></h3>
-                    <small>Game Engine I built pre-HTML5</small>
-                </div>
-                <div class="project-bubble">
-                </div>
-                <div class="project-bubble">
-                </div>
-                <div class="project-bubble">
+                <div class="right">
+                    <div class="project-title">
+                        Projects //
+                    </div>
+                    <div class="projects">
+                        <ul>
+                            <li>
+                                <a href="https://animeawards.moe/">r/anime awards</a>
+                                <small>annual awards for a community of 3 million</small>
+                            </li>
+                            <li>
+                                <a href="https://supplychain.averydennison.com/">avery dennison supply chain</a>
+                                <small>okta and 2fa integration</small>
+                            </li>                            
+                            <li>
+                                <a href="https://configurator.fortissecurity.com/">airtron</a>
+                                <small>custom payment gateway</small>
+                            </li>
+                            <li>
+                                <a href="https://catsober.org/">center for addiction treatment</a>
+                                <small>site development</small>
+                            </li>
+                            <li>
+                                <a href="https://lightspeed.solutionagency.net/">lightspeed</a>
+                                <small>site development // pw: lightspeed</small>
+                            </li>
+                            <li>
+                                <a href="https://github.com/pandavenger/bio2">bio2</a>
+                                <small>nlp and ai discord bot</small>
+                            </li>
+                            <li>
+                                <a href="https://github.com/pandavenger/DimSumJS">dimsum.js</a>
+                                <small>pre-html5 game engine experiment</small>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <footer>
+                <ul class="social-links">
+                    <li>
+                        <a aria-label="github" href="https://github.com/pandavenger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.78 117.79"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M60.39 0A60.39 60.39 0 0 0 41.3 117.69c3 .56 4.12-1.31 4.12-2.91 0-1.44-.05-6.19-.08-11.24C28.54 107.19 25 96.42 25 96.42c-2.75-7-6.71-8.84-6.71-8.84-5.48-3.75.41-3.67.41-3.67 6.07.43 9.26 6.22 9.26 6.22 5.39 9.23 14.13 6.57 17.57 5 .55-3.9 2.11-6.56 3.84-8.07C36 85.55 21.85 80.37 21.85 57.23A23.35 23.35 0 0 1 28.08 41c-.63-1.52-2.7-7.66.58-16 0 0 5.07-1.62 16.61 6.19a57.36 57.36 0 0 1 30.25 0C87 23.42 92.11 25 92.11 25c3.28 8.32 1.22 14.46.59 16a23.34 23.34 0 0 1 6.21 16.21c0 23.2-14.12 28.3-27.57 29.8 2.16 1.87 4.09 5.55 4.09 11.18 0 8.08-.06 14.59-.06 16.57 0 1.61 1.08 3.49 4.14 2.9A60.39 60.39 0 0 0 60.39 0Z"></path><path class="cls-2" d="M22.87 86.7c-.13.3-.6.39-1 .19s-.69-.61-.55-.91.61-.39 1-.19.69.61.54.91ZM25.32 89.43c-.29.27-.85.14-1.24-.28a.92.92 0 0 1-.17-1.25c.3-.27.84-.14 1.24.28s.47 1 .17 1.25ZM27.7 92.91c-.37.26-1 0-1.35-.52s-.37-1.18 0-1.44 1 0 1.35.51.37 1.19 0 1.45ZM31 96.27a1.13 1.13 0 0 1-1.59-.27c-.53-.49-.68-1.18-.34-1.54s1-.27 1.56.23.68 1.18.33 1.54ZM35.46 98.22c-.15.47-.82.69-1.51.49s-1.13-.76-1-1.24.82-.7 1.51-.49 1.13.76 1 1.24ZM40.4 98.58c0 .5-.56.91-1.28.92s-1.3-.38-1.31-.88.56-.91 1.29-.92 1.3.39 1.3.88ZM45 97.8c.09.49-.41 1-1.12 1.12s-1.35-.17-1.44-.66.42-1 1.12-1.12 1.35.17 1.44.66Z"></path></g></g></svg></a>
+                    </li>
+                    <li>
+                        <a aria-label="email" href="mailto:ruochen.tang@hotmail.com?subject=Mail from rtang.me"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="857.333" height="620" viewBox="0 0 643 465"><path d="M39 3.4C31.6 5.1 27.5 7 21.4 11.6 11.2 19.3 5 29.2 3 41.1c-.8 4.5-1 61.4-.8 195.9.3 185.8.3 189.6 2.3 195 4.5 12.6 15.8 24.2 28.2 29.1 5 1.9 8.2 2.3 23.1 2.7l17.2.4V292.6c0-94.4.3-171.6.6-171.6.4 0 56.5 39.8 124.6 88.5l124 88.6 123.6-88.3c67.9-48.6 123.9-88.5 124.4-88.6.4-.2.8 76.8.8 171.2V464h15.3c16.2 0 21.9-1 30.3-5.1 11.3-5.6 21.7-19.2 24.3-31.7.8-3.8 1.1-59.8 1.1-194.5 0-166.8-.2-190-1.5-195.2-4.7-17.7-19.3-31.2-37.6-34.6-5.4-1-7-.9-9.2.2-1.4.8-62.9 44.7-136.6 97.6-73.7 53-134.5 96.3-135 96.3-.6 0-60.8-42.8-133.8-95.2C115.2 49.4 54 5.6 52.1 4.3c-3.8-2.6-5.2-2.7-13.1-.9z"></path></svg></a>
+                    </li>
+                    <li>
+                        <a aria-label="linked-in" href="https://www.linkedin.com/in/ruochen-tang-32627974/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    </li>
+                </ul>
+            </footer>
         </div>
-     </section>
+    </div>
+    
 
-     <section id="contact">
-         <div class="body">
-             <h2>Need to get ahold of me?</h2>
-             <p><a href="mailto:ruochen.tang@hotmail.com">ruochen.tang@hotmail.com</a></p>
-             <h2>Want the boring version?</h2>
-             <p><a href="resumeRuochenTang.pdf">Download my resume</a></p>
-         </div>
-     </section>
- </body>
- </html>
+    <script>
+    (function() {
+    var canvas, ctx, circ, nodes, mouse, SENSITIVITY, SIBLINGS_LIMIT, DENSITY, NODES_QTY, ANCHOR_LENGTH, MOUSE_RADIUS;
+
+    // how close next node must be to activate connection (in px)
+    // shorter distance == better connection (line width)
+    SENSITIVITY = 150;
+    // note that siblings limit is not 'accurate' as the node can actually have more connections than this value that's because the node accepts sibling nodes with no regard to their current connections this is acceptable because potential fix would not result in significant visual difference 
+    // more siblings == bigger node
+    SIBLINGS_LIMIT = 6;
+    // default node margin
+    DENSITY = 100;
+    // total number of nodes used (incremented after creation)
+    NODES_QTY = 0;
+    // avoid nodes spreading
+    ANCHOR_LENGTH = 400;
+    // highlight radius
+    MOUSE_RADIUS = 500;
+
+    TRIANGLE_SIZE = 300;
+
+    circ = 2 * Math.PI;
+    nodes = [];
+
+    canvas = document.querySelector('#backgroundCanvas');
+
+    resizeWindow();
+    mouse = {
+        x: canvas.width / 2,
+        y: canvas.height / 2,
+        vx: 1,
+        vy: 1,
+    };
+
+    ctx = canvas.getContext('2d');
+    if (!ctx) {
+        console.log("Ooops! Your browser does not support canvas :'(");
+    }
+
+    function Node(x, y, orientation=1) {
+        this.anchorX = x;
+        this.anchorY = y;
+        this.x = x;
+        this.y = y;
+        this.vx = 0; //Math.random() * 2 - 1;
+        this.vy = 0; //Math.random() * 2 - 1;
+        this.energy = Math.random() * 100;
+        this.radius = Math.random();
+        this.siblings = [];
+        this.brightness = 0;
+        this.orientation = orientation;
+    }
+
+    Node.prototype.drawNode = function() {
+        var color = "rgba(165, 207, 199, " + this.brightness + ")";
+        ctx.beginPath();
+        if (this.orientation > 0){
+            ctx.moveTo(this.x, this.y + 95);
+            ctx.lineTo(this.x + Math.sin(Math.PI*2/3)*100, this.y + (Math.cos(Math.PI*2/3)*100));
+            ctx.lineTo(this.x - Math.sin(Math.PI*2/3)*100, this.y + (Math.cos(Math.PI*2/3)*100));
+        } else {
+            ctx.moveTo(this.x, this.y - 45);
+            ctx.lineTo(this.x + Math.sin(Math.PI*2/3)*100, this.y - (Math.cos(Math.PI*2/3)*200))
+            ctx.lineTo(this.x - Math.sin(Math.PI*2/3)*100, this.y - (Math.cos(Math.PI*2/3)*200))
+        }
+        ctx.closePath();
+        ctx.fillStyle = color;
+        ctx.fill();
+    };
+
+    Node.prototype.drawConnections = function() {
+        for (var i = 0; i < this.siblings.length; i++) {
+            var color = "rgba(65, 207, 199," + this.brightness + ")";
+            ctx.beginPath();
+            ctx.moveTo(this.x, this.y);
+            ctx.lineTo(this.siblings[i].x, this.siblings[i].y);
+            ctx.lineWidth = 1 - calcDistance(this, this.siblings[i]) / SENSITIVITY;
+            ctx.strokeStyle = color;
+            ctx.stroke();
+        }
+    };
+
+    Node.prototype.moveNode = function() {
+        this.energy -= 2;
+        if (this.energy < 1) {
+            this.energy = Math.random() * 800;
+            if (this.x - this.anchorX < -ANCHOR_LENGTH) {
+                this.vx = Math.random() * 0.5;
+            } else if (this.x - this.anchorX > ANCHOR_LENGTH) {
+                this.vx = Math.random() * -0.5;
+            } else {
+                this.vx = Math.random() * 1 - 0.5;
+            }
+            if (this.y - this.anchorY < -ANCHOR_LENGTH) {
+                this.vy = Math.random() * 0.5;
+            } else if (this.y - this.anchorY > ANCHOR_LENGTH) {
+                this.vy = Math.random() * -0.5;
+            } else {
+                this.vy = Math.random() * 1 - 0.5;
+            }
+        }
+        this.x += this.vx * this.energy / 800;
+        this.y += this.vy * this.energy / 800;
+    };
+
+    function initNodes() {
+        let horientation = -1, orientation = 1;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        nodes = [];
+        for (var i = 0; i < canvas.width+DENSITY*2; i += DENSITY) {
+            for (var j = 0; j < canvas.height+DENSITY*2; j += (DENSITY+60)) {
+                nodes.push(new Node(i, j, orientation));
+                NODES_QTY++;
+                orientation *= -1;
+            }
+            orientation = horientation;
+            horientation *= -1;
+        }
+    }
+
+    function calcDistance(node1, node2) {
+        return Math.sqrt(Math.pow(node1.x - node2.x, 2) + (Math.pow(node1.y - node2.y, 2)));
+    }
+
+    function findSiblings() {
+        var node1, node2, distance;
+        for (var i = 0; i < NODES_QTY; i++) {
+            node1 = nodes[i];
+            node1.siblings = [];
+            for (var j = 0; j < NODES_QTY; j++) {
+                node2 = nodes[j];
+                if (node1 !== node2) {
+                    distance = calcDistance(node1, node2);
+                    if (distance < SENSITIVITY) {
+                        if (node1.siblings.length < SIBLINGS_LIMIT) {
+                            node1.siblings.push(node2);
+                        } else {
+                            var node_sibling_distance = 0;
+                            var max_distance = 0;
+                            var s;
+                            for (var k = 0; k < SIBLINGS_LIMIT; k++) {
+                                node_sibling_distance = calcDistance(node1, node1.siblings[k]);
+                                if (node_sibling_distance > max_distance) {
+                                max_distance = node_sibling_distance;
+                                s = k;
+                                }
+                            }
+                            if (distance < max_distance) {
+                                node1.siblings.splice(s, 1);
+                                node1.siblings.push(node2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    function redrawScene() {
+        resizeWindow();
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        // findSiblings();
+        var i, node, distance;
+        for (i = 0; i < NODES_QTY; i++) {
+            node = nodes[i];
+            distance = calcDistance({
+                x: mouse.x,
+                y: mouse.y
+            }, node);
+            // if (distance < MOUSE_RADIUS && node.brightness <= 0) {
+            if (Math.random() < 0.005 && node.brightness <= 0) {
+                node.brightness = 0.2;
+            } else {
+                if (node.brightness > 0){
+                    node.brightness -= 0.0005;
+                }
+            }
+        }
+        for (i = 0; i < NODES_QTY; i++) {
+            node = nodes[i];
+            node.drawNode();
+            if (node.brightness) {                
+                // node.drawConnections();
+            }
+            //node.moveNode();
+        }
+
+        mouse.x += mouse.vx;
+        mouse.y += mouse.vy;
+
+        if (mouse.x < 0 || mouse.x > canvas.width) {
+            mouse.vx *= -1;
+        }
+        if (mouse.y < 0 || mouse.y > canvas.height) {
+            mouse.vy *= -1;
+        }
+
+        requestAnimationFrame(redrawScene);
+    }
+
+    function initHandlers() {
+        document.addEventListener('resize', resizeWindow, false);
+        // document.addEventListener('mousemove', mousemoveHandler, false);
+    }
+
+    function resizeWindow() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        }
+
+        function mousemoveHandler(e) {
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+        }
+
+        initHandlers();
+        initNodes();
+        redrawScene();
+    })();
+</script>
+</body>
+</html>
