@@ -32,12 +32,10 @@
                         hi.
                     </div>
                     <div class="desc">
-                        My name is Ruochen Tang. I am a developer based in Cincinnati, OH. I've built and supported a variety of plugins
-                        and applications for clients ranging from local to international.
+                        I’m Ruochen Tang, a Developer based in Cincinnati, OH with a passion for building robust, scalable systems and crafting seamless digital experiences. From leading projects serving millions of users to modernizing enterprise applications, I bring expertise across diverse stacks — from Laravel, Vue, and Flutter to cloud, database, and hardware integrations.
                         <br/>
                         <br/>
-                        Web applications are my forte, but I have plenty of experience working with backend scripting and databases. I am
-                        always willing and excited to learn and improve.
+                        I thrive on solving complex problems, bridging backend architecture with intuitive frontends, and delivering solutions that stand the test of time. When I’m not coding, you’ll find me exploring new coffee roasts, tending to my garden, or enjoying a good board game.
                         <br/>
                     </div>
                     <div class="center">
@@ -51,8 +49,16 @@
                     <div class="projects">
                         <ul>
                             <li>
-                                <a href="https://animeawards.moe/">r/anime awards</a> // <a href="https://r-ani.me">(portfolio version)</a>
-                                <small>annual awards for a community of 6 million</small>
+                                <a href="https://animeawards.moe/">r/anime awards</a>
+                                <small>annual awards for a community of 14 million</small>
+                            </li>
+                            <li>
+                                <a href="https://www.bcminks.com/">bcminks app</a>
+                                <small>custom ink manufacturing application</small>
+                            </li>
+                            <li>
+                                <a href="https://www.bcminks.com/">ocusell.ai</a>
+                                <small>mls workflow integration with ai smart fill</small>
                             </li>
                             <li>
                                 <a href="https://supplychain.averydennison.com/">avery dennison supply chain</a>
@@ -178,7 +184,7 @@
     };
 
     Node.prototype.moveNode = function() {
-        this.energy -= 2;
+        // this.energy -= 2;
         if (this.energy < 1) {
             this.energy = Math.random() * 800;
             if (this.x - this.anchorX < -ANCHOR_LENGTH) {
@@ -212,6 +218,11 @@
             }
             orientation = horientation;
             horientation *= -1;
+        }
+
+        for (i = 0; i < NODES_QTY; i++) {
+            node = nodes[i];
+            node.brightness = 0.1 * Math.random();
         }
     }
 
@@ -266,10 +277,10 @@
             }, node);
             // if (distance < MOUSE_RADIUS && node.brightness <= 0) {
             if (Math.random() < 0.005 && node.brightness <= 0) {
-                node.brightness = 0.2;
+                // node.brightness = 0.2;
             } else {
                 if (node.brightness > 0){
-                    node.brightness -= 0.0005;
+                    // node.brightness -= 0.0005;
                 }
             }
         }
